@@ -20,3 +20,15 @@ else if(totalExpenses > (which budget is current one)){
             <option value="€" name="euro">€ Euro</option>
             <option value="₹" name="rupee">₹ Ruppee</option>
             </div>
+
+
+            let currency = " ";
+        document.getElementById('dropdown').onClick = function(){
+            for(var option of document.getElementsByClassName("curr-select").options){
+                switch(option.value){
+                    case 'dollar':
+                        return '$';
+                    default:
+                        return '£';
+                }
+            }

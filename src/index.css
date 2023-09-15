@@ -15,9 +15,7 @@ code {
 .input-group-text{
     background-color: lightpink;
 }
-.curr-select{
-    background-color: lightpink;
-}
+
 .curr-select:hover{
-    color: aqua;
+    background-color: aqua;
 }
