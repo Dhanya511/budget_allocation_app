@@ -11,3 +11,13 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.input-group-text{
+    background-color: lightpink;
+}
+.curr-select{
+    background-color: lightpink;
+}
+.curr-select:hover{
+    color: aqua;
+}

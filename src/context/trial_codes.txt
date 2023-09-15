@@ -1,0 +1,22 @@
+else if(totalExpenses > (which budget is current one)){
+                alert("You Cannot Reduce the budget lower than your spendibgs ");
+                return {
+                    ...state
+                }
+
+            }
+
+
+            <select className="custom-select" id="inputGroupSelect01" onChange={(event) => setName(event.target.value)}>
+                        <option defaultValue>Choose...</option>
+
+
+
+
+<button onClick={handledropdown()} class="dropbtn" placeholder= "£ Pounds"></button>
+            <div id="currdropdown">
+            <option value="$" name="dollar">$ Dollar</option>
+            <option value="£" name="pound">£ Pound</option>
+            <option value="€" name="euro">€ Euro</option>
+            <option value="₹" name="rupee">₹ Ruppee</option>
+            </div>
