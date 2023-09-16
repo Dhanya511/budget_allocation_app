@@ -76,7 +76,7 @@ export const AppReducer = (state, action) => {
 
         case 'CHG_CURRENCY':
             action.type = "DONE";
-            state.currency.id = action.payload;
+            state.currency = action.payload;
             let chg_curr ="";
             state.currency.map((currentCur)=>{
                 if(currentCur.id === action.payload){
@@ -84,9 +84,10 @@ export const AppReducer = (state, action) => {
                 }
                 return chg_curr;
             })
+            action.type = "DONE";
             return {
                 ...state,
-    
+                chg_curr
             };
 
         default:

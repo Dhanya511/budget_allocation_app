@@ -32,3 +32,8 @@ else if(totalExpenses > (which budget is current one)){
                         return '£';
                 }
             }
+
+
+<button className="btn btn-primary" onClick={handleCurrencyChange} style={{ marginLeft: '2rem' }}>
+                        Change Currency
+            </button>

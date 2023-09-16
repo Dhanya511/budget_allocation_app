@@ -19,3 +19,33 @@ code {
 .curr-select:hover{
     background-color: aqua;
 }
+
+.incbutton{
+    background-color: #04AA6D; /* Green */
+    border: none;
+    border-radius: 50%;
+    color: white;
+    padding: 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-left: 20px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.decbutton{
+    background-color: red;
+    border: none;
+    border-radius: 50%;
+    color: white;
+    padding: 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-left: 20px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
